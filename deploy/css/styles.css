@@ -463,21 +463,98 @@ nav ul li:last-child {
 /* =============
     Footer
 ============= */
+#multiscroll .ms-left .ms-section {
+  padding: 4vh 8vh 4vh 4vh;
+}
+#multiscroll .ms-left .ms-section h2 {
+  margin-top: 2%;
+}
+#multiscroll .ms-left .ms-section p {
+  margin-top: 40%;
+}
 #multiscroll .ms-left #left-1 {
-  background-color: coral;
+  background-color: #86998C;
+  color: #DB2518;
+  font-family: Futura;
+  font-weight: 500;
+}
+#multiscroll .ms-left #left-1 h1 {
+  -webkit-text-stroke: 2px #DB2518;
+  letter-spacing: 0.11em;
+  font-weight: bold;
+}
+#multiscroll .ms-left #left-1 h2 {
+  font-weight: 500;
+}
+#multiscroll .ms-left #left-1 p {
+  font-weight: 500;
 }
 #multiscroll .ms-left #left-2 {
-  background-color: deeppink;
+  background-color: #BC988E;
+  font-family: Sanchez;
 }
 #multiscroll .ms-left #left-3 {
-  background-color: lightseagreen;
+  background-color: #F6A186;
+  font-family: Ernestine Pro;
+}
+#multiscroll .ms-left #left-4 {
+  background-color: #4E7655;
+  font-family: Futura;
+}
+#multiscroll .ms-left #left-5 {
+  background-color: #203D4B;
+  font-family: Futura;
+}
+#multiscroll .ms-left #left-6 {
+  background-color: #282120;
+  font-family: Ballet;
+}
+#multiscroll .ms-left #left-7 {
+  background-color: #E8D1B8;
+  font-family: Helvetica;
+}
+#multiscroll .ms-right .ms-section aside {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
 }
 #multiscroll .ms-right #right-1 {
-  background-color: coral;
+  background-image: url("../img/the_royal_tenenbaums.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #FFFFFF;
+  font-family: Futura;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.11em;
 }
 #multiscroll .ms-right #right-2 {
-  background-color: deeppink;
+  background-image: url("../img/isle_of_dogs.png");
+  background-size: cover;
+  background-position: center;
 }
 #multiscroll .ms-right #right-3 {
-  background-color: lightseagreen;
+  background-image: url("../img/grand_budapest_hotel.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#multiscroll .ms-right #right-4 {
+  background-image: url("../img/the_life_aquatic.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#multiscroll .ms-right #right-5 {
+  background-image: url("../img/the_limited.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#multiscroll .ms-right #right-6 {
+  background-image: url("../img/moonrise_kingdom.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#multiscroll .ms-right #right-7 {
+  background-image: url("../img/fantastic_mr.fox.jpeg");
+  background-size: cover;
+  background-position: center;
 }

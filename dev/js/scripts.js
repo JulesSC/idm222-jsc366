@@ -1,6 +1,10 @@
 
 $(function(){
-    $('#multiscroll').multiscroll();
+    $('#multiscroll').multiscroll({
+        navigation: true,
+		navigationPosition: 'left',
+		navigationColor: '#000'
+    })
 });
 
 
