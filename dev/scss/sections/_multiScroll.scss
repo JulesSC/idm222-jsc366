@@ -25,44 +25,81 @@
                 letter-spacing: 0.11em;
                 font-weight: bold;
             }
-
-            h2{
-                font-weight: 500;
-            }
-
-            p{
-                font-weight: 500;
-            }
         }
 
         #left-2{
             background-color: #BC988E;
             font-family: Sanchez;
+            color: #211718;
+            font-family: Futura;
+            font-weight: 500;
+
+            h1{
+                font-family: Sanchez;
+                font-style: italic;
+            }
         }
 
         #left-3{
             background-color: #F6A186;
-            font-family: Ernestine Pro;
+            font-family: DIN Condensed;
+            color: #4F1E33;
+
+            h1{
+                font-family: Ernestine Pro;
+                font-style: italic;
+                -webkit-text-stroke: 2px #4F1E33;
+                letter-spacing: 0.11em;
+                font-weight: 400;
+            }
         }
 
         #left-4{
             background-color: #4E7655;
             font-family: Futura;
+            color: #ECC492;
+
+            h1{
+                color: transparent;
+                -webkit-text-stroke: 1px #ECC492;
+                letter-spacing: 0.11em;
+                font-weight: 500;
+            }
         }
 
         #left-5{
             background-color: #203D4B;
             font-family: Futura;
+            color: #D3B877;
+
+            h1{
+                color: transparent;
+                -webkit-text-stroke: 1px #ECC492;
+                letter-spacing: 0.11em;
+                font-weight: 700;
+            }
         }
 
         #left-6{
             background-color: #282120;
-            font-family: Ballet;
+            font-family: Futura;
+            color: #C37D3E;
+
+            h1{
+                font-family: Ballet;
+                font-weight: 400;
+            }
         }
 
         #left-7{
             background-color: #E8D1B8;
             font-family: Helvetica;
+            color: #551F10;
+
+            h1{
+                font-weight: 700;
+                letter-spacing: 0.11em;
+            }
         }
     }
 
@@ -89,36 +126,67 @@
             background-image: url("../img/isle_of_dogs.png");
             background-size: cover;
             background-position: center;
+            color: #DE7B43;
+            font-family: Sanchez;
+            font-style: italic;
+            text-align: center;
+            letter-spacing: 0.11em;
         }
 
         #right-3{
             background-image: url("../img/grand_budapest_hotel.jpeg");
             background-size: cover;
             background-position: center;
+            color: #C60000;
+            font-family: Ernestine Pro;
+            font-weight: bold;
+            text-align: center;
+            letter-spacing: 0.11em;
         }
 
         #right-4{
             background-image: url("../img/the_life_aquatic.jpg");
             background-size: cover;
             background-position: center;
+            font-family: Futura;
+            font-weight: bold;
+            text-align: center;
+            letter-spacing: 0.11em;
+            -webkit-text-stroke: 2px #AE4909;
+            color: transparent;
         }
 
         #right-5{
             background-image: url("../img/the_limited.jpeg");
             background-size: cover;
             background-position: center;
+            font-family: Futura;
+            font-weight: bold;
+            color: #6B3B1B;
+            text-align: center;
+            letter-spacing: 0.11em;
         }
 
         #right-6{
             background-image: url("../img/moonrise_kingdom.jpeg");
             background-size: cover;
             background-position: center;
+            font-family: Futura;
+            font-weight: bold;
+            text-align: center;
+            letter-spacing: 0.11em;
+            color: #CDC594;
         }
 
         #right-7{
             background-image: url("../img/fantastic_mr.fox.jpeg");
             background-size: cover;
             background-position: center;
+            font-family: Helvetica;
+            font-weight: bold;
+            text-align: center;
+            letter-spacing: 0.11em;
+            color: #A55E60;
         }
     }
 }

@@ -3,7 +3,7 @@ $(function(){
     $('#multiscroll').multiscroll({
         navigation: true,
 		navigationPosition: 'left',
-		navigationColor: '#000'
+		navigationColor: '#FFF'
     })
 });
 
