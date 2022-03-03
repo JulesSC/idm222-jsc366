@@ -477,32 +477,82 @@ footer > div {
 }
 footer > div p {
   color: white;
-  font-size: 16px;
+  font-size: 12px;
   font-family: futura;
   font-weight: 400;
 }
+@media (min-width: 768px) {
+  footer > div p {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1024px) {
+  footer > div p {
+    font-size: 16px;
+  }
+}
 footer > div div {
-  width: 50%;
+  width: 20%;
   height: 2px;
   background-color: white;
 }
+@media (min-width: 768px) {
+  footer > div div {
+    width: 40%;
+    height: 2px;
+  }
+}
+@media (min-width: 1024px) {
+  footer > div div {
+    width: 50%;
+  }
+}
 
 #multiscroll .ms-left .ms-section {
-  padding: 8vh 8vh 4vh 4vh;
+  padding: 8vh 8vh 2vh 2vh;
 }
 #multiscroll .ms-left .ms-section h1 {
-  font-size: 48px;
+  font-size: 24px;
   line-height: 109.4%;
 }
 #multiscroll .ms-left .ms-section h2 {
   margin-top: 2%;
   font-weight: 500;
-  font-size: 30px;
+  font-size: 14px;
 }
 #multiscroll .ms-left .ms-section p {
-  margin-top: 40%;
+  margin-top: 20%;
   width: 80%;
-  font-size: 16px;
+  font-size: 12px;
+}
+@media (min-width: 768px) {
+  #multiscroll .ms-left .ms-section {
+    padding: 8vh 8vh 3vh 3vh;
+  }
+  #multiscroll .ms-left .ms-section h1 {
+    font-size: 36px;
+  }
+  #multiscroll .ms-left .ms-section h2 {
+    font-size: 24px;
+  }
+  #multiscroll .ms-left .ms-section p {
+    margin-top: 40%;
+    font-size: 14px;
+  }
+}
+@media (min-width: 1024px) {
+  #multiscroll .ms-left .ms-section {
+    padding: 8vh 8vh 4vh 4vh;
+  }
+  #multiscroll .ms-left .ms-section h1 {
+    font-size: 48px;
+  }
+  #multiscroll .ms-left .ms-section h2 {
+    font-size: 30px;
+  }
+  #multiscroll .ms-left .ms-section p {
+    font-size: 16px;
+  }
 }
 #multiscroll .ms-left #left-1 {
   background-color: #86998C;
@@ -511,9 +561,16 @@ footer > div div {
   font-weight: 500;
 }
 #multiscroll .ms-left #left-1 h1 {
-  -webkit-text-stroke: 2px #DB2518;
-  letter-spacing: 0.11em;
+  -webkit-text-stroke: 1px #DB2518;
+  letter-spacing: 0.08em;
   font-weight: bold;
+}
+@media (min-width: 768px) {
+  #multiscroll .ms-left #left-1 h1 {
+    -webkit-text-stroke: 2px #DB2518;
+    letter-spacing: 0.11em;
+    font-weight: bold;
+  }
 }
 #multiscroll .ms-left #left-2 {
   background-color: #BC988E;
@@ -567,7 +624,12 @@ footer > div div {
 #multiscroll .ms-left #left-6 h1 {
   font-family: Ballet;
   font-weight: 400;
-  font-size: 80px;
+  font-size: 50px;
+}
+@media (min-width: 1024px) {
+  #multiscroll .ms-left #left-6 h1 {
+    font-size: 80px;
+  }
 }
 #multiscroll .ms-left #left-7 {
   background-color: #E8D1B8;
@@ -579,10 +641,31 @@ footer > div div {
   letter-spacing: 0.11em;
 }
 #multiscroll .ms-right .ms-section aside {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-around;
   padding: 8vh;
+}
+@media (min-width: 768px) {
+  #multiscroll .ms-right .ms-section aside {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+}
+#multiscroll .ms-right .ms-section aside h3 {
+  font-size: 12px;
+  margin: 2vh;
+}
+@media (min-width: 768px) {
+  #multiscroll .ms-right .ms-section aside h3 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    font-size: 14px;
+  }
+}
+@media (min-width: 1024px) {
+  #multiscroll .ms-right .ms-section aside h3 {
+    font-size: 16px;
+  }
 }
 #multiscroll .ms-right #right-1 {
   background-image: url("../img/the_royal_tenenbaums.jpg");

@@ -15,15 +15,34 @@ footer{
        
         p{
             color: white;
-            font-size: 16px;
+            font-size: 12px;
             font-family: futura;
             font-weight: 400;
+
+            @include md {
+                
+                font-size: 14px;
+            }
+        
+            @include lg {
+                
+                font-size: 16px;
+            }
         }
         
         div{
-            width: 50%;
+            width: 20%;
             height: 2px;
             background-color: white;
+
+            @include md {
+                width: 40%;
+                height: 2px;
+            }
+        
+            @include lg {
+                width: 50%;
+            }
         }
     }
 }
