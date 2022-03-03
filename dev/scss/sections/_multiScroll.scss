@@ -3,14 +3,23 @@
     .ms-left{
 
         .ms-section{
-            padding: 4vh 8vh 4vh 4vh;
+            padding: 8vh 8vh 4vh 4vh;
+
+            h1{
+                font-size: 48px;
+                line-height: 109.4%;
+            }
 
             h2{
                 margin-top: 2%;
+                font-weight: 500;
+                font-size: 30px;
             }
                 
             p{
                 margin-top: 40%;
+                width: 80%;
+                font-size: 16px;
             }
         }
 
@@ -47,7 +56,6 @@
 
             h1{
                 font-family: Ernestine Pro;
-                font-style: italic;
                 -webkit-text-stroke: 2px #4F1E33;
                 letter-spacing: 0.11em;
                 font-weight: 400;
@@ -61,7 +69,7 @@
 
             h1{
                 color: transparent;
-                -webkit-text-stroke: 1px #ECC492;
+                -webkit-text-stroke: 2px #ECC492;
                 letter-spacing: 0.11em;
                 font-weight: 500;
             }
@@ -74,7 +82,7 @@
 
             h1{
                 color: transparent;
-                -webkit-text-stroke: 1px #ECC492;
+                -webkit-text-stroke: 2px #ECC492;
                 letter-spacing: 0.11em;
                 font-weight: 700;
             }
@@ -88,6 +96,7 @@
             h1{
                 font-family: Ballet;
                 font-weight: 400;
+                font-size: 80px;
             }
         }
 
@@ -109,13 +118,14 @@
             display: flex;
             align-items: flex-start;
             justify-content: space-around;
+            padding: 8vh;
+            color: #FFFFFF;
         }
 
         #right-1{
             background-image: url("../img/the_royal_tenenbaums.jpg");
             background-size: cover;
             background-position: center;
-            color: #FFFFFF;
             font-family: Futura;
             font-weight: bold;
             text-align: center;
@@ -126,7 +136,6 @@
             background-image: url("../img/isle_of_dogs.png");
             background-size: cover;
             background-position: center;
-            color: #DE7B43;
             font-family: Sanchez;
             font-style: italic;
             text-align: center;
@@ -137,7 +146,6 @@
             background-image: url("../img/grand_budapest_hotel.jpeg");
             background-size: cover;
             background-position: center;
-            color: #C60000;
             font-family: Ernestine Pro;
             font-weight: bold;
             text-align: center;
@@ -152,7 +160,7 @@
             font-weight: bold;
             text-align: center;
             letter-spacing: 0.11em;
-            -webkit-text-stroke: 2px #AE4909;
+            -webkit-text-stroke: 2px #FFFFFF;;
             color: transparent;
         }
 
@@ -162,7 +170,6 @@
             background-position: center;
             font-family: Futura;
             font-weight: bold;
-            color: #6B3B1B;
             text-align: center;
             letter-spacing: 0.11em;
         }
@@ -175,7 +182,6 @@
             font-weight: bold;
             text-align: center;
             letter-spacing: 0.11em;
-            color: #CDC594;
         }
 
         #right-7{
@@ -186,7 +192,6 @@
             font-weight: bold;
             text-align: center;
             letter-spacing: 0.11em;
-            color: #A55E60;
         }
     }
 }
