@@ -583,7 +583,6 @@ footer > div div {
   align-items: flex-start;
   justify-content: space-around;
   padding: 8vh;
-  color: #FFFFFF;
 }
 #multiscroll .ms-right #right-1 {
   background-image: url("../img/the_royal_tenenbaums.jpg");
@@ -593,6 +592,7 @@ footer > div div {
   font-weight: bold;
   text-align: center;
   letter-spacing: 0.11em;
+  color: #FFFFFF;
 }
 #multiscroll .ms-right #right-2 {
   background-image: url("../img/isle_of_dogs.png");
@@ -602,6 +602,7 @@ footer > div div {
   font-style: italic;
   text-align: center;
   letter-spacing: 0.11em;
+  color: #FFFFFF;
 }
 #multiscroll .ms-right #right-3 {
   background-image: url("../img/grand_budapest_hotel.jpeg");
@@ -611,6 +612,7 @@ footer > div div {
   font-weight: bold;
   text-align: center;
   letter-spacing: 0.11em;
+  color: #FFFFFF;
 }
 #multiscroll .ms-right #right-4 {
   background-image: url("../img/the_life_aquatic.jpg");
@@ -620,8 +622,8 @@ footer > div div {
   font-weight: bold;
   text-align: center;
   letter-spacing: 0.11em;
-  -webkit-text-stroke: 2px #FFFFFF;
   color: transparent;
+  -webkit-text-stroke: 1px #FFFFFF;
 }
 #multiscroll .ms-right #right-5 {
   background-image: url("../img/the_limited.jpeg");
@@ -631,6 +633,7 @@ footer > div div {
   font-weight: bold;
   text-align: center;
   letter-spacing: 0.11em;
+  color: #FFFFFF;
 }
 #multiscroll .ms-right #right-6 {
   background-image: url("../img/moonrise_kingdom.jpeg");
@@ -640,6 +643,7 @@ footer > div div {
   font-weight: bold;
   text-align: center;
   letter-spacing: 0.11em;
+  color: #FFFFFF;
 }
 #multiscroll .ms-right #right-7 {
   background-image: url("../img/fantastic_mr.fox.jpeg");
@@ -649,4 +653,5 @@ footer > div div {
   font-weight: bold;
   text-align: center;
   letter-spacing: 0.11em;
+  color: #FFFFFF;
 }
