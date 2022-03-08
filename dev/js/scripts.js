@@ -1,3 +1,8 @@
+import { skillsTrigger } from "./scrollAnimation";
+
+window.addEventListener('load', function(){
+    skillsTrigger();
+});
 
 $(function(){
     $('#multiscroll').multiscroll({

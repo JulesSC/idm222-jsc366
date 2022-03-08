@@ -460,15 +460,6 @@ nav ul li:last-child {
 /* =============
     Header
 ============= */
-header {
-  background-color: transparent;
-  position: absolute;
-  top: 94vh;
-  left: 80vw;
-  z-index: 1000;
-  border: 3px red solid;
-}
-
 /* =============
     Footer
 ============= */
