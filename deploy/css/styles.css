@@ -476,11 +476,16 @@ footer {
   background-color: transparent;
   width: 96vw;
   position: absolute;
-  top: 83vh;
+  top: 90vh;
   left: 2vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+@media (min-width: 768px) {
+  footer {
+    top: 83vh;
+  }
 }
 footer > div {
   width: 45%;
@@ -557,7 +562,7 @@ footer #img-container img {
     font-size: 24px;
   }
   #multiscroll .ms-left .ms-section p {
-    margin-top: 40%;
+    margin-top: 30%;
     font-size: 14px;
   }
 }
