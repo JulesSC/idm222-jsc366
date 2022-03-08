@@ -3,12 +3,17 @@
 ============= */
 footer{
     background-color: transparent;
-    width: 45vw;
+    width: 96vw;
     position: absolute;
-    top: 94vh;
+    top: 83vh;
     left: 2vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // padding: 3vh;
 
     >div{
+        width: 45%;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -43,6 +48,17 @@ footer{
             @include lg {
                 width: 50%;
             }
+        }
+    }
+
+    #img-container{
+        display: flex;
+        justify-content: end;
+        // height: 50%;
+
+        img{
+            height: 16%;
+            width: 16%;
         }
     }
 }

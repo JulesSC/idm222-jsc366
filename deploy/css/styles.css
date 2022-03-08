@@ -460,17 +460,30 @@ nav ul li:last-child {
 /* =============
     Header
 ============= */
+header {
+  background-color: transparent;
+  position: absolute;
+  top: 94vh;
+  left: 80vw;
+  z-index: 1000;
+  border: 3px red solid;
+}
+
 /* =============
     Footer
 ============= */
 footer {
   background-color: transparent;
-  width: 45vw;
+  width: 96vw;
   position: absolute;
-  top: 94vh;
+  top: 83vh;
   left: 2vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 footer > div {
+  width: 45%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -506,6 +519,14 @@ footer > div div {
   footer > div div {
     width: 50%;
   }
+}
+footer #img-container {
+  display: flex;
+  justify-content: end;
+}
+footer #img-container img {
+  height: 16%;
+  width: 16%;
 }
 
 #multiscroll .ms-left .ms-section {
@@ -639,6 +660,12 @@ footer > div div {
 #multiscroll .ms-left #left-7 h1 {
   font-weight: 700;
   letter-spacing: 0.11em;
+}
+#multiscroll .ms-right #svg-container {
+  position: absolute;
+  top: 80%;
+  left: 80%;
+  z-index: 3;
 }
 #multiscroll .ms-right .ms-section aside {
   padding: 8vh;

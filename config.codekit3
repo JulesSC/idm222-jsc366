@@ -1435,6 +1435,29 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/deploy\/img\/circle.png" : {
+      "ft" : 32768,
+      "iS" : 2160,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/circle.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/circle.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/circle.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/deploy\/img\/fantastic_mr.fox.jpeg" : {
       "ft" : 16384,
       "iS" : 360460,
@@ -1581,7 +1604,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/global\/header.html",
       "oF" : 0
     },

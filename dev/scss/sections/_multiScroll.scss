@@ -162,6 +162,13 @@
 
     .ms-right{
 
+        #svg-container{
+            position: absolute;
+            top: 80%;
+            left: 80%;
+            z-index: 3;
+        }
+
         .ms-section aside{
 
             padding: 8vh;
