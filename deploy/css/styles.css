@@ -463,21 +463,301 @@ nav ul li:last-child {
 /* =============
     Footer
 ============= */
+footer {
+  background-color: transparent;
+  width: 96vw;
+  position: absolute;
+  top: 90vh;
+  left: 2vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  footer {
+    top: 83vh;
+  }
+}
+footer > div {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer > div p {
+  color: white;
+  font-size: 12px;
+  font-family: futura;
+  font-weight: 400;
+}
+@media (min-width: 768px) {
+  footer > div p {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1024px) {
+  footer > div p {
+    font-size: 16px;
+  }
+}
+footer > div div {
+  width: 20%;
+  height: 2px;
+  background-color: white;
+}
+@media (min-width: 768px) {
+  footer > div div {
+    width: 40%;
+    height: 2px;
+  }
+}
+@media (min-width: 1024px) {
+  footer > div div {
+    width: 50%;
+  }
+}
+footer #img-container {
+  display: flex;
+  justify-content: end;
+}
+footer #img-container img {
+  height: 16%;
+  width: 16%;
+}
+
+#multiscroll .ms-left .ms-section {
+  padding: 8vh 8vh 2vh 2vh;
+}
+#multiscroll .ms-left .ms-section h1 {
+  font-size: 24px;
+  line-height: 109.4%;
+}
+#multiscroll .ms-left .ms-section h2 {
+  margin-top: 2%;
+  font-weight: 500;
+  font-size: 14px;
+}
+#multiscroll .ms-left .ms-section p {
+  margin-top: 20%;
+  width: 80%;
+  font-size: 12px;
+}
+@media (min-width: 768px) {
+  #multiscroll .ms-left .ms-section {
+    padding: 8vh 8vh 3vh 3vh;
+  }
+  #multiscroll .ms-left .ms-section h1 {
+    font-size: 36px;
+  }
+  #multiscroll .ms-left .ms-section h2 {
+    font-size: 24px;
+  }
+  #multiscroll .ms-left .ms-section p {
+    margin-top: 30%;
+    font-size: 14px;
+  }
+}
+@media (min-width: 1024px) {
+  #multiscroll .ms-left .ms-section {
+    padding: 8vh 8vh 4vh 4vh;
+  }
+  #multiscroll .ms-left .ms-section h1 {
+    font-size: 48px;
+  }
+  #multiscroll .ms-left .ms-section h2 {
+    font-size: 30px;
+  }
+  #multiscroll .ms-left .ms-section p {
+    font-size: 16px;
+  }
+}
 #multiscroll .ms-left #left-1 {
-  background-color: coral;
+  background-color: #86998C;
+  color: #DB2518;
+  font-family: Futura;
+  font-weight: 500;
+}
+#multiscroll .ms-left #left-1 h1 {
+  -webkit-text-stroke: 1px #DB2518;
+  letter-spacing: 0.08em;
+  font-weight: bold;
+}
+@media (min-width: 768px) {
+  #multiscroll .ms-left #left-1 h1 {
+    -webkit-text-stroke: 2px #DB2518;
+    letter-spacing: 0.11em;
+    font-weight: bold;
+  }
 }
 #multiscroll .ms-left #left-2 {
-  background-color: deeppink;
+  background-color: #BC988E;
+  font-family: Sanchez;
+  color: #211718;
+  font-family: Futura;
+  font-weight: 500;
+}
+#multiscroll .ms-left #left-2 h1 {
+  font-family: Sanchez;
+  font-style: italic;
 }
 #multiscroll .ms-left #left-3 {
-  background-color: lightseagreen;
+  background-color: #F6A186;
+  font-family: DIN Condensed;
+  color: #4F1E33;
+}
+#multiscroll .ms-left #left-3 h1 {
+  font-family: Ernestine Pro;
+  -webkit-text-stroke: 2px #4F1E33;
+  letter-spacing: 0.11em;
+  font-weight: 400;
+}
+#multiscroll .ms-left #left-4 {
+  background-color: #4E7655;
+  font-family: Futura;
+  color: #ECC492;
+}
+#multiscroll .ms-left #left-4 h1 {
+  color: transparent;
+  -webkit-text-stroke: 2px #ECC492;
+  letter-spacing: 0.11em;
+  font-weight: 500;
+}
+#multiscroll .ms-left #left-5 {
+  background-color: #203D4B;
+  font-family: Futura;
+  color: #D3B877;
+}
+#multiscroll .ms-left #left-5 h1 {
+  color: transparent;
+  -webkit-text-stroke: 2px #ECC492;
+  letter-spacing: 0.11em;
+  font-weight: 700;
+}
+#multiscroll .ms-left #left-6 {
+  background-color: #282120;
+  font-family: Futura;
+  color: #C37D3E;
+}
+#multiscroll .ms-left #left-6 h1 {
+  font-family: Ballet;
+  font-weight: 400;
+  font-size: 50px;
+}
+@media (min-width: 1024px) {
+  #multiscroll .ms-left #left-6 h1 {
+    font-size: 80px;
+  }
+}
+#multiscroll .ms-left #left-7 {
+  background-color: #E8D1B8;
+  font-family: Helvetica;
+  color: #551F10;
+}
+#multiscroll .ms-left #left-7 h1 {
+  font-weight: 700;
+  letter-spacing: 0.11em;
+}
+#multiscroll .ms-right #svg-container {
+  position: absolute;
+  top: 80%;
+  left: 80%;
+  z-index: 3;
+}
+#multiscroll .ms-right .ms-section aside {
+  padding: 8vh;
+}
+@media (min-width: 768px) {
+  #multiscroll .ms-right .ms-section aside {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+}
+#multiscroll .ms-right .ms-section aside h3 {
+  font-size: 12px;
+  margin: 2vh;
+}
+@media (min-width: 768px) {
+  #multiscroll .ms-right .ms-section aside h3 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    font-size: 14px;
+  }
+}
+@media (min-width: 1024px) {
+  #multiscroll .ms-right .ms-section aside h3 {
+    font-size: 16px;
+  }
 }
 #multiscroll .ms-right #right-1 {
-  background-color: coral;
+  background-image: url("../img/the_royal_tenenbaums.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: Futura;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.11em;
+  color: #FFFFFF;
 }
 #multiscroll .ms-right #right-2 {
-  background-color: deeppink;
+  background-image: url("../img/isle_of_dogs.png");
+  background-size: cover;
+  background-position: center;
+  font-family: Sanchez;
+  font-style: italic;
+  text-align: center;
+  letter-spacing: 0.11em;
+  color: #FFFFFF;
 }
 #multiscroll .ms-right #right-3 {
-  background-color: lightseagreen;
+  background-image: url("../img/grand_budapest_hotel.jpeg");
+  background-size: cover;
+  background-position: center;
+  font-family: Ernestine Pro;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.11em;
+  color: #FFFFFF;
+}
+#multiscroll .ms-right #right-4 {
+  background-image: url("../img/the_life_aquatic.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: Futura;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.11em;
+  color: transparent;
+  -webkit-text-stroke: 1px #FFFFFF;
+}
+#multiscroll .ms-right #right-5 {
+  background-image: url("../img/the_limited.jpeg");
+  background-size: cover;
+  background-position: center;
+  font-family: Futura;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.11em;
+  color: #FFFFFF;
+}
+#multiscroll .ms-right #right-6 {
+  background-image: url("../img/moonrise_kingdom.jpeg");
+  background-size: cover;
+  background-position: center;
+  font-family: Futura;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.11em;
+  color: #FFFFFF;
+}
+#multiscroll .ms-right #right-7 {
+  background-image: url("../img/fantastic_mr.fox.jpeg");
+  background-size: cover;
+  background-position: center;
+  font-family: Helvetica;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.11em;
+  color: #FFFFFF;
 }

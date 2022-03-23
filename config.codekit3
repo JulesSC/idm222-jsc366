@@ -9,6 +9,14 @@
   ],
   "creatorBuild" : "34214",
   "files" : {
+    "\/.gitattributes" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/.gitattributes",
+      "oF" : 0
+    },
     "\/assets\/burger.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -1427,6 +1435,120 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/deploy\/img\/circle.png" : {
+      "ft" : 32768,
+      "iS" : 2160,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/circle.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/circle.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/circle.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/fantastic_mr.fox.jpeg" : {
+      "ft" : 16384,
+      "iS" : 360460,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/fantastic_mr.fox.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/grand_budapest_hotel.jpeg" : {
+      "ft" : 16384,
+      "iS" : 282227,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/grand_budapest_hotel.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/isle_of_dogs.png" : {
+      "ft" : 32768,
+      "iS" : 1878413,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/isle_of_dogs.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/moonrise_kingdom.jpeg" : {
+      "ft" : 16384,
+      "iS" : 574359,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/moonrise_kingdom.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/the_life_aquatic.jpg" : {
+      "ft" : 16384,
+      "iS" : 276087,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/the_life_aquatic.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/the_limited.jpeg" : {
+      "ft" : 16384,
+      "iS" : 84429,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/the_limited.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/the_royal_tenenbaums.jpg" : {
+      "ft" : 16384,
+      "iS" : 203588,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/the_royal_tenenbaums.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1446,12 +1568,12 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/design\/structure-tags.sketch" : {
+    "\/design\/.structure-tags.sketch.icloud" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/design\/structure-tags.sketch",
+      "oAP" : "\/design\/.structure-tags.sketch.icloud",
       "oF" : 0
     },
     "\/dev\/content\/multiScroll.kit" : {
@@ -1466,7 +1588,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/global\/footer.html",
       "oF" : 0
     },
@@ -1482,7 +1604,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/global\/header.html",
       "oF" : 0
     },
@@ -1502,6 +1624,17 @@
       "oAP" : "\/deploy\/index.html",
       "oF" : 2
     },
+    "\/dev\/js\/circleRotate.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/dev\/js\/circleRotate-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/dev\/js\/scripts.js" : {
       "bF" : 4,
       "ft" : 64,
@@ -1510,6 +1643,17 @@
       "oA" : 0,
       "oAP" : "\/deploy\/js\/scripts-min.js",
       "oF" : 2,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dev\/js\/scrollAnimation.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/dev\/js\/scrollAnimation-min.js",
+      "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
@@ -1707,6 +1851,39 @@
       "oAP" : "\/node_modules",
       "oF" : 0
     },
+    "\/node_modules\/gsap\/CSSPlugin.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/node_modules\/gsap\/CSSPlugin-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/node_modules\/gsap\/gsap-core.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/node_modules\/gsap\/gsap-core-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/node_modules\/gsap\/index.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/node_modules\/gsap\/index-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/package-lock.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -1732,7 +1909,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 663616749.49805403,
-    "displayValue" : "web-3-students-W22-multiScroll",
+    "displayValue" : "multiScroll",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "meme-dunnoGirl",
     "iconImageWasSetByUser" : 1
