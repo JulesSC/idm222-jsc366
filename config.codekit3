@@ -1568,12 +1568,12 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/design\/structure-tags.sketch" : {
+    "\/design\/.structure-tags.sketch.icloud" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/design\/structure-tags.sketch",
+      "oAP" : "\/design\/.structure-tags.sketch.icloud",
       "oF" : 0
     },
     "\/dev\/content\/multiScroll.kit" : {
@@ -1651,7 +1651,7 @@
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/js\/scrollAnimation-min.js",
       "oF" : 0,
       "sC" : 3,

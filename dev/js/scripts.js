@@ -1,10 +1,10 @@
 import { gsap } from "gsap";
-import { skillsTrigger } from "./scrollAnimation";
+// import { skillsTrigger } from "./scrollAnimation";
 import { circleRotate } from "./circleRotate";
 
 window.addEventListener('load', function(){
     circleRotate();
-    skillsTrigger();
+    // skillsTrigger();
 });
 
 $(function(){
